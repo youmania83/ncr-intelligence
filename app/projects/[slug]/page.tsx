@@ -2,15 +2,18 @@ import Image from "next/image"
 import projects from "@/data/projects"
 import { notFound } from "next/navigation"
 
-export default async function ProjectPage({
+export default function ProjectPage({
   params,
 }: {
-  params: Promise<{ slug: string }>
+  params: { slug: string }
 }) {
-  const { slug } = await params
+  const { slug } = params
+
   const project = projects.find((p) => p.slug === slug)
 
-  if (!project) return notFound()
+  if (!project) {
+    notFound()
+  }
 
   return (
     <div className="min-h-screen bg-[#050c12] text-white">
@@ -76,22 +79,24 @@ export default async function ProjectPage({
           <p><span className="text-yellow-500">Suggested Horizon:</span> {project.investmentHorizon}</p>
 
         </div>
+
+        {/* Location Intelligence */}
         <section className="mb-24">
-  <h2 className="text-2xl mb-6">Location Intelligence</h2>
+          <h2 className="text-2xl mb-6">Location Intelligence</h2>
 
-  <div className="relative w-full h-96 rounded-lg overflow-hidden border border-gray-800">
-    <iframe
-      src={`https://www.google.com/maps?q=${encodeURIComponent(project.address)}&output=embed`}
-      width="100%"
-      height="100%"
-      style={{ border: 0 }}
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
-  </div>
-</section> 
+          <div className="relative w-full h-96 rounded-lg overflow-hidden border border-gray-800">
+            <iframe
+              src={`https://www.google.com/maps?q=${encodeURIComponent(project.address)}&output=embed`}
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </section>
 
-        {/* Positioning */}
+        {/* Strategic Positioning */}
         <section className="mb-24">
           <h2 className="text-2xl mb-6">Strategic Positioning</h2>
           <p className="text-gray-400 leading-relaxed max-w-3xl">
@@ -108,7 +113,7 @@ export default async function ProjectPage({
               <div key={index} className="relative h-72 overflow-hidden rounded-lg">
                 <Image
                   src={img}
-                  alt={`Gallery ${index}`}
+                  alt={`Gallery ${index + 1}`}
                   fill
                   sizes="33vw"
                   className="object-cover hover:scale-105 transition duration-700 ease-in-out"
