@@ -1,27 +1,51 @@
-import Image from "next/image"
-import projects from "@/data/projects"
-import { notFound } from "next/navigation"
+import { getProjects, getProjectBySlug } from "@/lib/projects"
 
 export async function generateStaticParams() {
-  return projects.map((project) => ({
-    slug: project.slug,
-  }))
+
+ const projects = getProjects()
+
+ return projects.map((project: any) => ({
+  slug: project.slug
+ }))
 }
 
-export default function ProjectPage({
-  params,
-}: {
-  params: { slug: string }
-}) {
-  const project = projects.find((p) => p.slug === params.slug)
+export default async function ProjectPage({ params }: any) {
 
-  if (!project) {
-    notFound()
-  }
+ const { slug } = await params
 
-  return (
-    <div className="min-h-screen bg-[#050c12] text-white">
-      <h1 className="text-5xl p-20">{project.name}</h1>
-    </div>
-  )
+ const project = getProjectBySlug(slug)
+
+ if (!project) {
+  return <div>Project not found</div>
+ }
+
+ return (
+  <main className="bg-[#0b0f14] text-white min-h-screen px-10 py-20">
+
+   <div className="max-w-4xl mx-auto">
+
+    <h1 className="text-4xl font-semibold mb-6">
+     {project.name}
+    </h1>
+
+    <p className="text-gray-400 mb-4">
+     Builder: {project.builder}
+    </p>
+
+    <p className="text-gray-400 mb-10">
+     Location: {project.location}
+    </p>
+
+    <a
+     href={project.officialWebsite}
+     target="_blank"
+     className="bg-white text-black px-6 py-3 rounded-lg font-medium"
+    >
+     Visit Official Project Website
+    </a>
+
+   </div>
+
+  </main>
+ )
 }

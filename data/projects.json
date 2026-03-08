@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Grand Enclave",
+    "slug": "the-grand-enclave",
+    "builder": "DLF",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.dlf.in/homes/premium/thegrandenclave/"
+  },
+  {
+    "name": "The Valley Orchard",
+    "slug": "the-valley-orchard",
+    "builder": "DLF",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.dlf.in/homes/premium/thevalleyorchard/"
+  },
+  {
+    "name": "Phase H",
+    "slug": "phase-h",
+    "builder": "DLF",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.dlf.in/homes/premium/independentfloors/phase-h/"
+  },
+  {
+    "name": "The Dahlias",
+    "slug": "the-dahlias",
+    "builder": "DLF",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.dlf.in/homes/superluxury/thedahlias/"
+  },
+  {
+    "name": "The Valley Gardens",
+    "slug": "the-valley-gardens",
+    "builder": "DLF",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.dlf.in/homes/premium/thevalleygardens/"
+  }
+]
