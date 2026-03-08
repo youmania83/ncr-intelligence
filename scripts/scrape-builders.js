@@ -83,18 +83,16 @@ async function scrapeBuilder(builder) {
 
     const url = link.url.toLowerCase()
 
-    // Allow only NCR projects
-const isNCR = NCR_LOCATIONS.some(loc => url.includes(loc))
-if (!isNCR) continue
-
-    if (url.endsWith("/homes/")) continue
-
+    // Only keep residential project pages
     if (
       !url.includes("/residential/") &&
       !url.includes("/homes/") &&
       !url.includes("/projects/")
     ) continue
 
+    if (url.endsWith("/homes/")) continue
+
+    // Skip corporate pages
     if (
       url.includes("/about") ||
       url.includes("/investor") ||
@@ -107,6 +105,10 @@ if (!isNCR) continue
       url.includes("/disclaimer") ||
       url.includes("/sitemap")
     ) continue
+
+    // NCR Filter AFTER project detection
+    const isNCR = NCR_LOCATIONS.some(loc => url.includes(loc))
+    if (!isNCR && builder.name === "Godrej") continue
 
     let name = cleanName(link.name || "")
 
