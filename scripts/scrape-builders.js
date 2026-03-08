@@ -8,6 +8,18 @@ const builders = JSON.parse(
 
 const projects = []
 
+const NCR_LOCATIONS = [
+  "gurgaon",
+  "gurugram",
+  "delhi",
+  "noida",
+  "greater-noida",
+  "dwarka",
+  "sohna",
+  "faridabad",
+  "ghaziabad"
+]
+
 function cleanName(name) {
   return name
     .replace(/\n/g, " ")
@@ -70,6 +82,10 @@ async function scrapeBuilder(builder) {
     if (!link.url) continue
 
     const url = link.url.toLowerCase()
+
+    // Allow only NCR projects
+const isNCR = NCR_LOCATIONS.some(loc => url.includes(loc))
+if (!isNCR) continue
 
     if (url.endsWith("/homes/")) continue
 
