@@ -126,6 +126,15 @@ async function scrapeBuilder(builder) {
     name = cleanName(name)
 
     if (!name || name.length < 3) continue
+    
+    // FILTER NON-PROJECT LINKS
+    if (name.startsWith("#")) continue
+    if (name.toLowerCase().includes("view")) continue
+    if (name.toLowerCase().includes("about")) continue
+    if (name.toLowerCase().includes("home")) continue
+    if (name.toLowerCase().includes("project")) continue
+
+    if (!name || name.length < 3) continue
 
     const slug = slugify(name, { lower: true, strict: true })
 
@@ -155,7 +164,7 @@ async function run() {
   const uniqueProjects = Array.from(
     new Map(projects.map(p => [p.officialWebsite, p])).values()
   )
-
+   
   fs.writeFileSync(
     "./data/projects.json",
     JSON.stringify(uniqueProjects, null, 2)

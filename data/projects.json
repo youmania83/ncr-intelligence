@@ -1,19 +1,5 @@
 [
   {
-    "name": "#about",
-    "slug": "about",
-    "builder": "DLF",
-    "location": "Gurgaon",
-    "officialWebsite": "https://www.dlf.in/homes/#about"
-  },
-  {
-    "name": "VIEW ALL Projects",
-    "slug": "view-all-projects",
-    "builder": "DLF",
-    "location": "Gurgaon",
-    "officialWebsite": "https://www.dlf.in/homes/listing.php"
-  },
-  {
     "name": "onemidtown",
     "slug": "onemidtown",
     "builder": "DLF",

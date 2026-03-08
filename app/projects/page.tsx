@@ -19,15 +19,25 @@ export default function ProjectsPage() {
 
      <Link key={project.slug} href={`/projects/${project.slug}`}>
 
-      <div className="border border-gray-800 rounded-xl overflow-hidden hover:border-gray-600 transition">
+<div className="border border-gray-800 rounded-xl overflow-hidden hover:border-gray-600 transition">
 
-       <Image
-        src={`/projects/${project.slug}.jpg`}
-        alt={project.name}
-        width={600}
-        height={400}
-        className="w-full h-56 object-cover"
-       />
+<div className="w-full h-56 bg-gradient-to-br from-[#111827] to-[#1f2937] flex items-center justify-center relative">
+
+  <Image
+    src={`/projects/${project.slug}.jpg`}
+    alt={project.name}
+    width={600}
+    height={400}
+    className="w-full h-56 object-cover"
+    onError={(e:any) => {
+      e.currentTarget.style.display = "none"
+    }}
+  />
+
+  <span className="absolute text-gray-400 text-lg font-medium px-4 text-center">
+    {project.name}
+  </span>
+</div>
 
        <div className="p-6">
 
