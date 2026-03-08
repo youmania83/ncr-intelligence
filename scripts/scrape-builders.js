@@ -1,99 +1,93 @@
-import puppeteer from "puppeteer"
 import fs from "fs"
+import puppeteer from "puppeteer"
 import slugify from "slugify"
 
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
+const builders = JSON.parse(
+  fs.readFileSync("./data/builders.json")
+)
 
-async function scrapeDLF() {
+const projects = []
 
- const browser = await puppeteer.launch({ headless: true })
- const page = await browser.newPage()
+function cleanName(name) {
+  return name
+    .replace(/\n/g, " ")
+    .replace(/\s+/g, " ")
+    .replace(/Gurugram|Gurgaon|Delhi NCR|Noida|Panipat/gi, "")
+    .trim()
+}
 
- await page.goto("https://www.dlf.in/listing", {
-  waitUntil: "networkidle2"
- })
+async function scrapeBuilder(builder) {
 
- // close popup
- try {
-  await page.waitForSelector(".close", { timeout: 3000 })
-  await page.click(".close")
- } catch (e) {}
+  console.log("Scraping:", builder.name)
 
- await delay(4000)
+  const browser = await puppeteer.launch({ headless: true })
+  const page = await browser.newPage()
 
- const links = await page.evaluate(() => {
+  await page.goto(builder.projectsPage, {
+    waitUntil: "networkidle2",
+    timeout: 60000
+  })
 
-  const results = []
+  const links = await page.evaluate(() => {
 
-  const anchors = document.querySelectorAll("a")
+    const anchors = Array.from(document.querySelectorAll("a"))
 
-  anchors.forEach(a => {
-
-   const href = a.href
-
-   if (
-    href.includes("/homes/") &&
-    !href.endsWith("/homes/") &&
-    !href.includes(".pdf")
-   ) {
-
-    results.push(href)
-
-   }
+    return anchors.map(a => ({
+      name: a.innerText,
+      url: a.href
+    }))
 
   })
 
-  return [...new Set(results)]
+  for (const link of links) {
 
- })
+    if (!link.url) continue
 
- const projects = links.map(link => {
+    if (
+      !link.url.includes("/residential/") &&
+      !link.url.includes("/homes/") &&
+      !link.url.includes("/projects/")
+    ) continue
 
-    let raw = link
-    .split("/")
-    .filter(Boolean)
-    .pop()
-   
-   raw = raw.replace(/-/g, " ")
-   
-   const dictionary = [
-    "the",
-    "grand",
-    "valley",
-    "gardens",
-    "orchard",
-    "dahlias",
-    "phase"
-   ]
-   
-   dictionary.forEach(word => {
-    raw = raw.replace(word, " " + word + " ")
-   })
-   
-   raw = raw.replace(/\s+/g, " ").trim()
-   
-   const name = raw.replace(/\b\w/g, c => c.toUpperCase())
+    const name = cleanName(link.name || "")
 
-  const slug = slugify(name, { lower: true })
+    if (!name) continue
+    if (name.length < 3) continue
+    if (name.toLowerCase().includes("know")) continue
+    if (name.toLowerCase().includes("more")) continue
+    if (name.toLowerCase().includes("read")) continue
+    if (name.toLowerCase().includes("click")) continue
 
-  return {
-   name,
-   slug,
-   builder: "DLF",
-   location: "Gurgaon",
-   officialWebsite: link
+    const slug = slugify(name, { lower: true, strict: true })
+
+    projects.push({
+      name,
+      slug,
+      builder: builder.name,
+      location: builder.location,
+      officialWebsite: link.url
+    })
   }
 
- })
-
- fs.writeFileSync(
-  "./data/projects.json",
-  JSON.stringify(projects, null, 2)
- )
-
- console.log("Projects saved:", projects.length)
-
- await browser.close()
+  await browser.close()
 }
 
-scrapeDLF()
+async function run() {
+
+  for (const builder of builders) {
+    await scrapeBuilder(builder)
+  }
+
+  const uniqueProjects = Array.from(
+    new Map(projects.map(p => [p.slug, p])).values()
+  )
+
+  fs.writeFileSync(
+    "./data/projects.json",
+    JSON.stringify(uniqueProjects, null, 2)
+  )
+
+  console.log("Projects saved:", uniqueProjects.length)
+}
+
+run()

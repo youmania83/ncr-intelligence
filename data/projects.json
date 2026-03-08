@@ -1,37 +1,520 @@
 [
   {
-    "name": "The Grand Enclave",
-    "slug": "the-grand-enclave",
-    "builder": "DLF",
+    "name": "M3M Opus",
+    "slug": "m3m-opus",
+    "builder": "M3M",
     "location": "Gurgaon",
-    "officialWebsite": "https://www.dlf.in/homes/premium/thegrandenclave/"
+    "officialWebsite": "https://m3mindia.com/residential/m3m-opus"
   },
   {
-    "name": "The Valley Orchard",
-    "slug": "the-valley-orchard",
-    "builder": "DLF",
+    "name": "M3M Terraces",
+    "slug": "m3m-terraces",
+    "builder": "M3M",
     "location": "Gurgaon",
-    "officialWebsite": "https://www.dlf.in/homes/premium/thevalleyorchard/"
+    "officialWebsite": "https://m3mindia.com/residential/m3m-terraces"
   },
   {
-    "name": "Phase H",
-    "slug": "phase-h",
-    "builder": "DLF",
+    "name": "M3M Jacob & CO Residences",
+    "slug": "m3m-jacob-and-co-residences",
+    "builder": "M3M",
     "location": "Gurgaon",
-    "officialWebsite": "https://www.dlf.in/homes/premium/independentfloors/phase-h/"
+    "officialWebsite": "https://m3mindia.com/residential/m3m-jacob-co"
   },
   {
-    "name": "The Dahlias",
-    "slug": "the-dahlias",
-    "builder": "DLF",
+    "name": "M3M Altitude",
+    "slug": "m3m-altitude",
+    "builder": "M3M",
     "location": "Gurgaon",
-    "officialWebsite": "https://www.dlf.in/homes/superluxury/thedahlias/"
+    "officialWebsite": "https://m3mindia.com/residential/m3m-altitude"
   },
   {
-    "name": "The Valley Gardens",
-    "slug": "the-valley-gardens",
-    "builder": "DLF",
+    "name": "M3M Mansion",
+    "slug": "m3m-mansion",
+    "builder": "M3M",
     "location": "Gurgaon",
-    "officialWebsite": "https://www.dlf.in/homes/premium/thevalleygardens/"
+    "officialWebsite": "https://m3mindia.com/residential/m3m-mansion"
+  },
+  {
+    "name": "M3M The Cullinan",
+    "slug": "m3m-the-cullinan",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-the-cullinan"
+  },
+  {
+    "name": "M3M Crown",
+    "slug": "m3m-crown",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-crown"
+  },
+  {
+    "name": "M3M Golf Hills",
+    "slug": "m3m-golf-hills",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-golf-hills"
+  },
+  {
+    "name": "M3M City of Dreams",
+    "slug": "m3m-city-of-dreams",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-city-of-dreams"
+  },
+  {
+    "name": "M3M Capital",
+    "slug": "m3m-capital",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-capital"
+  },
+  {
+    "name": "M3M Antalya Hills",
+    "slug": "m3m-antalya-hills",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-antalya-hills"
+  },
+  {
+    "name": "M3M Soulitude",
+    "slug": "m3m-soulitude",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-soulitude"
+  },
+  {
+    "name": "M3M Fairway West",
+    "slug": "m3m-fairway-west",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-fairway-west"
+  },
+  {
+    "name": "M3M Fairway East",
+    "slug": "m3m-fairway-east",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-fairway-east"
+  },
+  {
+    "name": "M3M Panorama Suites",
+    "slug": "m3m-panorama-suites",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-panorama-suites"
+  },
+  {
+    "name": "M3M Polo Suites",
+    "slug": "m3m-polo-suites",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-polo-suites"
+  },
+  {
+    "name": "M3M St Andrews",
+    "slug": "m3m-st-andrews",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-st-andrews"
+  },
+  {
+    "name": "M3M Skysuites",
+    "slug": "m3m-skysuites",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-skysuites"
+  },
+  {
+    "name": "M3M Latitude",
+    "slug": "m3m-latitude",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-latitude"
+  },
+  {
+    "name": "M3M Merlin",
+    "slug": "m3m-merlin",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-merlin"
+  },
+  {
+    "name": "M3M Woodshire",
+    "slug": "m3m-woodshire",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-woodshire"
+  },
+  {
+    "name": "M3M Escala",
+    "slug": "m3m-escala",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-escala"
+  },
+  {
+    "name": "M3M Heights",
+    "slug": "m3m-heights",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-heights"
+  },
+  {
+    "name": "M3M Skycity",
+    "slug": "m3m-skycity",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-sky-city"
+  },
+  {
+    "name": "M3M The Marina",
+    "slug": "m3m-the-marina",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-marina"
+  },
+  {
+    "name": "M3M Sierra68",
+    "slug": "m3m-sierra68",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-sierra68"
+  },
+  {
+    "name": "M3M Ikonic",
+    "slug": "m3m-ikonic",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-ikonic"
+  },
+  {
+    "name": "M3M Natura",
+    "slug": "m3m-natura",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-natura"
+  },
+  {
+    "name": "M3M Flora68",
+    "slug": "m3m-flora68",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-flora68"
+  },
+  {
+    "name": "M3M Skywalk",
+    "slug": "m3m-skywalk",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-skywalk"
+  },
+  {
+    "name": "M3M Marina",
+    "slug": "m3m-marina",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-marina"
+  },
+  {
+    "name": "M3M Jacob & Co",
+    "slug": "m3m-jacob-and-co",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-jacob-co"
+  },
+  {
+    "name": "Residential Projects in",
+    "slug": "residential-projects-in",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-altitude"
+  },
+  {
+    "name": "Our Featured Projects",
+    "slug": "our-featured-projects",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-mansion"
+  },
+  {
+    "name": "M3M Altitude  Golf Course Road Extn., Sector 65,",
+    "slug": "m3m-altitude-golf-course-road-extn-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-altitude"
+  },
+  {
+    "name": "M3M Mansion Delhi, NCR Sector 113, SCDA, Dwarka Expressway,",
+    "slug": "m3m-mansion-delhi-ncr-sector-113-scda-dwarka-expressway",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-mansion"
+  },
+  {
+    "name": "M3M The Cullinan  Sector 94,",
+    "slug": "m3m-the-cullinan-sector-94",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-the-cullinan"
+  },
+  {
+    "name": "M3M Crown Delhi, NCR Sector 111, SCDA, Dwarka Expressway,",
+    "slug": "m3m-crown-delhi-ncr-sector-111-scda-dwarka-expressway",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-crown"
+  },
+  {
+    "name": "M3M Golf Hills  Sector 79,",
+    "slug": "m3m-golf-hills-sector-79",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-golf-hills"
+  },
+  {
+    "name": "M3M City of Dreams  Sector 36 & 37,  Haryana",
+    "slug": "m3m-city-of-dreams-sector-36-and-37-haryana",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-city-of-dreams"
+  },
+  {
+    "name": "M3M Capital Delhi, NCR Sector 113, SCDA, Dwarka Expressway,",
+    "slug": "m3m-capital-delhi-ncr-sector-113-scda-dwarka-expressway",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-capital"
+  },
+  {
+    "name": "M3M Antalya Hills  Sector 79, Gururgram",
+    "slug": "m3m-antalya-hills-sector-79-gururgram",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-antalya-hills"
+  },
+  {
+    "name": "M3M Soulitude  Sector 89,",
+    "slug": "m3m-soulitude-sector-89",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-soulitude"
+  },
+  {
+    "name": "M3M OPUS  Golf Course Road Extension, Sector 67,",
+    "slug": "m3m-opus-golf-course-road-extension-sector-67",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-opus"
+  },
+  {
+    "name": "M3M Terraces  M3M City, Sector- 36/37,",
+    "slug": "m3m-terraces-m3m-city-sector-3637",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-terraces"
+  },
+  {
+    "name": "M3M Jacob & Co  Sector 97,",
+    "slug": "m3m-jacob-and-co-sector-97",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-jacob-co"
+  },
+  {
+    "name": "M3M Fairway West  Sector 65,",
+    "slug": "m3m-fairway-west-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-fairway-west"
+  },
+  {
+    "name": "M3M Fairway East  Sector 65,",
+    "slug": "m3m-fairway-east-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-fairway-east"
+  },
+  {
+    "name": "M3M Panorama Suites  Sector 65,",
+    "slug": "m3m-panorama-suites-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-panorama-suites"
+  },
+  {
+    "name": "M3M Polo Suites  Sector 65,",
+    "slug": "m3m-polo-suites-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-polo-suites"
+  },
+  {
+    "name": "M3M St. Andrews  Sector 65,",
+    "slug": "m3m-st-andrews-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-st-andrews"
+  },
+  {
+    "name": "M3M SkySuites  Sector 65,",
+    "slug": "m3m-skysuites-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-skysuites"
+  },
+  {
+    "name": "M3M Latitude  Sector 65,",
+    "slug": "m3m-latitude-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-latitude"
+  },
+  {
+    "name": "M3M Merlin  Golf Course Road Extn., Sector 67,",
+    "slug": "m3m-merlin-golf-course-road-extn-sector-67",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-merlin"
+  },
+  {
+    "name": "M3M Woodshire  Sector 107,",
+    "slug": "m3m-woodshire-sector-107",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-woodshire"
+  },
+  {
+    "name": "M3M Escala  Sector 70A,",
+    "slug": "m3m-escala-sector-70a",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-escala"
+  },
+  {
+    "name": "M3M Heights  Golf Course Road Extn., Sector 65,",
+    "slug": "m3m-heights-golf-course-road-extn-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-heights"
+  },
+  {
+    "name": "M3M Skycity  Golf Course Road Extn., Sector 65,",
+    "slug": "m3m-skycity-golf-course-road-extn-sector-65",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-sky-city"
+  },
+  {
+    "name": "M3M Marina  Sector 68,",
+    "slug": "m3m-marina-sector-68",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-marina"
+  },
+  {
+    "name": "M3M Sierra68  Sector 68,",
+    "slug": "m3m-sierra68-sector-68",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-sierra68"
+  },
+  {
+    "name": "M3M Ikonic  Sector 68,",
+    "slug": "m3m-ikonic-sector-68",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-ikonic"
+  },
+  {
+    "name": "M3M Natura  Sector 68,",
+    "slug": "m3m-natura-sector-68",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-natura"
+  },
+  {
+    "name": "M3M Flora68  Sector 68,",
+    "slug": "m3m-flora68-sector-68",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-flora68"
+  },
+  {
+    "name": "M3M Skywalk  Sector 74,",
+    "slug": "m3m-skywalk-sector-74",
+    "builder": "M3M",
+    "location": "Gurgaon",
+    "officialWebsite": "https://m3mindia.com/residential/m3m-skywalk"
+  },
+  {
+    "name": "Smartworld Residences by ELIE SAAB",
+    "slug": "smartworld-residences-by-elie-saab",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/eliesaabresidences"
+  },
+  {
+    "name": "Smartworld Le Courtyard",
+    "slug": "smartworld-le-courtyard",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/lecourtyard/"
+  },
+  {
+    "name": "Smartworld Nature's Court",
+    "slug": "smartworld-natures-court",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/natures-court/"
+  },
+  {
+    "name": "Smartworld Sky Arc",
+    "slug": "smartworld-sky-arc",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/skyarc"
+  },
+  {
+    "name": "Smartworld The Edition",
+    "slug": "smartworld-the-edition",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/theedition"
+  },
+  {
+    "name": "Smartworld One DXP",
+    "slug": "smartworld-one-dxp",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/onedxp"
+  },
+  {
+    "name": "Smartworld One DXP Street",
+    "slug": "smartworld-one-dxp-street",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/onedxpstreet"
+  },
+  {
+    "name": "Smartworld Orchard Street",
+    "slug": "smartworld-orchard-street",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/orchardstreet"
+  },
+  {
+    "name": "Smartworld Orchard",
+    "slug": "smartworld-orchard",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/orchard"
+  },
+  {
+    "name": "Smartworld Gems",
+    "slug": "smartworld-gems",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/gems"
   }
 ]
