@@ -1,80 +1,83 @@
-import puppeteer from "puppeteer"
 import fs from "fs"
-import axios from "axios"
-import path from "path"
+import puppeteer from "puppeteer"
+import fetch from "node-fetch"
 
 const projects = JSON.parse(
- fs.readFileSync("./data/projects.json", "utf8")
+  fs.readFileSync("./data/projects.json")
 )
 
-async function downloadImages() {
+async function download() {
 
- const browser = await puppeteer.launch({ headless: true })
- const page = await browser.newPage()
-
- for (const project of projects) {
-
-  try {
-
-   console.log("Opening:", project.name)
-
-   await page.goto(project.officialWebsite, {
-    waitUntil: "networkidle2"
-   })
-
-   const imageUrl = await page.evaluate(() => {
-
-    const heroSelectors = [
-      ".hero img",
-      ".banner img",
-      ".project-banner img",
-      ".main-banner img",
-      ".slider img"
-    ]
-  
-    for (const selector of heroSelectors) {
-      const img = document.querySelector(selector)
-      if (img && img.src) {
-        return img.src
-      }
-    }
-  
-    return null
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ["--no-sandbox"]
   })
 
-  if (imageUrl && imageUrl.includes("maps")) {
-    console.log("Skipping map image")
-    continue
+  const page = await browser.newPage()
+
+  for (const project of projects) {
+
+    console.log("Opening:", project.name)
+
+    try {
+
+      await page.goto(project.officialWebsite, {
+        waitUntil: "networkidle2",
+        timeout: 60000
+      })
+
+      const imageUrl = await page.evaluate(() => {
+
+        const selectors = [
+          ".hero img",
+          ".banner img",
+          ".slider img",
+          ".carousel img",
+          ".project-banner img",
+          "img"
+        ]
+
+        for (const selector of selectors) {
+
+          const img = document.querySelector(selector)
+
+          if (img && img.src && img.src.startsWith("http")) {
+            return img.src
+          }
+        }
+
+        return null
+      })
+
+      if (!imageUrl) {
+        console.log("No image found")
+        continue
+      }
+
+      if (imageUrl.includes("map")) {
+        console.log("Skipping map image")
+        continue
+      }
+
+      const response = await fetch(imageUrl)
+      const buffer = await response.arrayBuffer()
+
+      fs.writeFileSync(
+        `./public/projects/${project.slug}.jpg`,
+        Buffer.from(buffer)
+      )
+
+      console.log("Saved image:", project.slug)
+
+    } catch (error) {
+
+      console.log("Failed:", project.slug)
+
+    }
+
   }
 
-   if (!imageUrl) {
-    console.log("No image found")
-    continue
-   }
-
-   const response = await axios.get(imageUrl, {
-    responseType: "arraybuffer"
-   })
-
-   const filePath = path.join(
-    "public/projects",
-    `${project.slug}.jpg`
-   )
-
-   fs.writeFileSync(filePath, response.data)
-
-   console.log("Saved image:", project.slug)
-
-  } catch (error) {
-
-   console.log("Failed:", project.slug)
-
-  }
-
- }
-
- await browser.close()
-
+  await browser.close()
 }
 
-downloadImages()
+download()

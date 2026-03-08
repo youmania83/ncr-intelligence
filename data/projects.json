@@ -1,12 +1,5 @@
 [
   {
-    "name": "homes",
-    "slug": "homes",
-    "builder": "DLF",
-    "location": "Gurgaon",
-    "officialWebsite": "https://www.dlf.in/homes/"
-  },
-  {
     "name": "thegrandenclave",
     "slug": "thegrandenclave",
     "builder": "DLF",
@@ -42,36 +35,36 @@
     "officialWebsite": "https://www.dlf.in/homes/premium/thevalleygardens/"
   },
   {
-    "name": "M3M OPUS  Golf Course Road Extension, Sector 67,",
-    "slug": "m3m-opus-golf-course-road-extension-sector-67",
+    "name": "M3M OPUS",
+    "slug": "m3m-opus",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-opus"
   },
   {
-    "name": "M3M Terraces  M3M City, Sector- 36/37,",
-    "slug": "m3m-terraces-m3m-city-sector-3637",
+    "name": "M3M Terraces Panipat M3M City,",
+    "slug": "m3m-terraces-panipat-m3m-city",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-terraces"
   },
   {
-    "name": "M3M Jacob & Co  Sector 97,",
-    "slug": "m3m-jacob-and-co-sector-97",
+    "name": "M3M Jacob & Co",
+    "slug": "m3m-jacob-and-co",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-jacob-co"
   },
   {
-    "name": "M3M Altitude  Golf Course Road Extn., Sector 65,",
-    "slug": "m3m-altitude-golf-course-road-extn-sector-65",
+    "name": "M3M Altitude",
+    "slug": "m3m-altitude",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-altitude"
   },
   {
-    "name": "M3M Mansion Delhi, NCR Sector 113, SCDA, Dwarka Expressway,",
-    "slug": "m3m-mansion-delhi-ncr-sector-113-scda-dwarka-expressway",
+    "name": "M3M Mansion",
+    "slug": "m3m-mansion",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-mansion"
@@ -84,15 +77,15 @@
     "officialWebsite": "https://m3mindia.com/residential/m3m-the-cullinan"
   },
   {
-    "name": "M3M Crown Delhi, NCR Sector 111, SCDA, Dwarka Expressway,",
-    "slug": "m3m-crown-delhi-ncr-sector-111-scda-dwarka-expressway",
+    "name": "M3M Crown",
+    "slug": "m3m-crown",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-crown"
   },
   {
-    "name": "M3M Golf Hills  Sector 79,",
-    "slug": "m3m-golf-hills-sector-79",
+    "name": "M3M Golf Hills",
+    "slug": "m3m-golf-hills",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-golf-hills"
@@ -105,151 +98,1089 @@
     "officialWebsite": "https://m3mindia.com/residential/m3m-city-of-dreams"
   },
   {
-    "name": "M3M Capital Delhi, NCR Sector 113, SCDA, Dwarka Expressway,",
-    "slug": "m3m-capital-delhi-ncr-sector-113-scda-dwarka-expressway",
+    "name": "M3M Capital",
+    "slug": "m3m-capital",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-capital"
   },
   {
-    "name": "M3M Antalya Hills  Sector 79, Gururgram",
-    "slug": "m3m-antalya-hills-sector-79-gururgram",
+    "name": "M3M Antalya Hills",
+    "slug": "m3m-antalya-hills",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-antalya-hills"
   },
   {
-    "name": "M3M Soulitude  Sector 89,",
-    "slug": "m3m-soulitude-sector-89",
+    "name": "M3M Soulitude",
+    "slug": "m3m-soulitude",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-soulitude"
   },
   {
-    "name": "M3M Fairway West  Sector 65,",
-    "slug": "m3m-fairway-west-sector-65",
+    "name": "M3M Fairway West",
+    "slug": "m3m-fairway-west",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-fairway-west"
   },
   {
-    "name": "M3M Fairway East  Sector 65,",
-    "slug": "m3m-fairway-east-sector-65",
+    "name": "M3M Fairway East",
+    "slug": "m3m-fairway-east",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-fairway-east"
   },
   {
-    "name": "M3M Panorama Suites  Sector 65,",
-    "slug": "m3m-panorama-suites-sector-65",
+    "name": "M3M Panorama Suites",
+    "slug": "m3m-panorama-suites",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-panorama-suites"
   },
   {
-    "name": "M3M Polo Suites  Sector 65,",
-    "slug": "m3m-polo-suites-sector-65",
+    "name": "M3M Polo Suites",
+    "slug": "m3m-polo-suites",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-polo-suites"
   },
   {
-    "name": "M3M St. Andrews  Sector 65,",
-    "slug": "m3m-st-andrews-sector-65",
+    "name": "M3M St. Andrews",
+    "slug": "m3m-st-andrews",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-st-andrews"
   },
   {
-    "name": "M3M SkySuites  Sector 65,",
-    "slug": "m3m-skysuites-sector-65",
+    "name": "M3M SkySuites",
+    "slug": "m3m-skysuites",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-skysuites"
   },
   {
-    "name": "M3M Latitude  Sector 65,",
-    "slug": "m3m-latitude-sector-65",
+    "name": "M3M Latitude",
+    "slug": "m3m-latitude",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-latitude"
   },
   {
-    "name": "M3M Merlin  Golf Course Road Extn., Sector 67,",
-    "slug": "m3m-merlin-golf-course-road-extn-sector-67",
+    "name": "M3M Merlin",
+    "slug": "m3m-merlin",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-merlin"
   },
   {
-    "name": "M3M Woodshire  Sector 107,",
-    "slug": "m3m-woodshire-sector-107",
+    "name": "M3M Woodshire",
+    "slug": "m3m-woodshire",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-woodshire"
   },
   {
-    "name": "M3M Escala  Sector 70A,",
-    "slug": "m3m-escala-sector-70a",
+    "name": "M3M Escala",
+    "slug": "m3m-escala",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-escala"
   },
   {
-    "name": "M3M Heights  Golf Course Road Extn., Sector 65,",
-    "slug": "m3m-heights-golf-course-road-extn-sector-65",
+    "name": "M3M Heights",
+    "slug": "m3m-heights",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-heights"
   },
   {
-    "name": "M3M Skycity  Golf Course Road Extn., Sector 65,",
-    "slug": "m3m-skycity-golf-course-road-extn-sector-65",
+    "name": "M3M Skycity",
+    "slug": "m3m-skycity",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-sky-city"
   },
   {
-    "name": "M3M Marina  Sector 68,",
-    "slug": "m3m-marina-sector-68",
+    "name": "M3M Marina",
+    "slug": "m3m-marina",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-marina"
   },
   {
-    "name": "M3M Sierra68  Sector 68,",
-    "slug": "m3m-sierra68-sector-68",
+    "name": "M3M Sierra68",
+    "slug": "m3m-sierra68",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-sierra68"
   },
   {
-    "name": "M3M Ikonic  Sector 68,",
-    "slug": "m3m-ikonic-sector-68",
+    "name": "M3M Ikonic",
+    "slug": "m3m-ikonic",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-ikonic"
   },
   {
-    "name": "M3M Natura  Sector 68,",
-    "slug": "m3m-natura-sector-68",
+    "name": "M3M Natura",
+    "slug": "m3m-natura",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-natura"
   },
   {
-    "name": "M3M Flora68  Sector 68,",
-    "slug": "m3m-flora68-sector-68",
+    "name": "M3M Flora68",
+    "slug": "m3m-flora68",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-flora68"
   },
   {
-    "name": "M3M Skywalk  Sector 74,",
-    "slug": "m3m-skywalk-sector-74",
+    "name": "M3M Skywalk",
+    "slug": "m3m-skywalk",
     "builder": "M3M",
     "location": "Gurgaon",
     "officialWebsite": "https://m3mindia.com/residential/m3m-skywalk"
+  },
+  {
+    "name": "Godrej Exquisite, Mumbai",
+    "slug": "godrej-exquisite-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-exquisite"
+  },
+  {
+    "name": "Godrej Meridien,",
+    "slug": "godrej-meridien",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-meridien"
+  },
+  {
+    "name": "Godrej Bayview , Mumbai",
+    "slug": "godrej-bayview-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-bayview"
+  },
+  {
+    "name": "Godrej RKS, Mumbai",
+    "slug": "godrej-rks-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-rks"
+  },
+  {
+    "name": "Godrej Woods,",
+    "slug": "godrej-woods",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-woods"
+  },
+  {
+    "name": "Godrej Nurture,",
+    "slug": "godrej-nurture",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-nurture-noida"
+  },
+  {
+    "name": "Godrej Palm Retreat,",
+    "slug": "godrej-palm-retreat",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-palm-retreat"
+  },
+  {
+    "name": "Godrej Aqua, Bengaluru",
+    "slug": "godrej-aqua-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-aqua"
+  },
+  {
+    "name": "Godrej Ascend, Mumbai",
+    "slug": "godrej-ascend-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-ascend"
+  },
+  {
+    "name": "Godrej Emerald, Mumbai",
+    "slug": "godrej-emerald-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-emerald"
+  },
+  {
+    "name": "Godrej City, Mumbai",
+    "slug": "godrej-city-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-city-panvel"
+  },
+  {
+    "name": "Godrej Horizon, Mumbai",
+    "slug": "godrej-horizon-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-horizon"
+  },
+  {
+    "name": "Godrej Nest, Mumbai",
+    "slug": "godrej-nest-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-nest"
+  },
+  {
+    "name": "Godrej Nirvaan, Mumbai",
+    "slug": "godrej-nirvaan-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-nirvaan"
+  },
+  {
+    "name": "Godrej Riviera, Mumbai",
+    "slug": "godrej-riviera-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-riviera"
+  },
+  {
+    "name": "Godrej Tranquil, Mumbai",
+    "slug": "godrej-tranquil-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-tranquil"
+  },
+  {
+    "name": "Godrej Urban Park, Mumbai",
+    "slug": "godrej-urban-park-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-urban-park"
+  },
+  {
+    "name": "Greenway Residences by Godrej Upavan, Mumbai",
+    "slug": "greenway-residences-by-godrej-upavan-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/greenway-residences-by-godrej-upavan"
+  },
+  {
+    "name": "Godrej Air,",
+    "slug": "godrej-air",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-air"
+  },
+  {
+    "name": "Godrej 101,",
+    "slug": "godrej-101",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-101"
+  },
+  {
+    "name": "Godrej Aria,",
+    "slug": "godrej-aria",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-aria"
+  },
+  {
+    "name": "Godrej Connaught One,",
+    "slug": "godrej-connaught-one",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/delhi/residential/godrej-connaught-one"
+  },
+  {
+    "name": "Godrej Habitat,",
+    "slug": "godrej-habitat",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-habitat"
+  },
+  {
+    "name": "Godrej Nature Plus,",
+    "slug": "godrej-nature-plus",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-nature-plus"
+  },
+  {
+    "name": "Godrej Icon,",
+    "slug": "godrej-icon",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-icon"
+  },
+  {
+    "name": "Godrej Nest,",
+    "slug": "godrej-nest",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-nest-noida"
+  },
+  {
+    "name": "Godrej Oasis,",
+    "slug": "godrej-oasis",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-oasis"
+  },
+  {
+    "name": "Godrej Prima,",
+    "slug": "godrej-prima",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/delhi/residential/godrej-prima"
+  },
+  {
+    "name": "Godrej Summit,",
+    "slug": "godrej-summit",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-summit"
+  },
+  {
+    "name": "Godrej Ananda, Bengaluru",
+    "slug": "godrej-ananda-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-ananda"
+  },
+  {
+    "name": "Godrej Park Retreat, Bengaluru",
+    "slug": "godrej-park-retreat-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-park-retreat"
+  },
+  {
+    "name": "Godrej Forest Grove, Pune",
+    "slug": "godrej-forest-grove-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-forest-grove"
+  },
+  {
+    "name": "Godrej Royale Woods, Bengaluru",
+    "slug": "godrej-royale-woods-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-royale-woods"
+  },
+  {
+    "name": "Godrej Splendour, Bengaluru",
+    "slug": "godrej-splendour-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-splendour"
+  },
+  {
+    "name": "Godrej Green Cove, Pune",
+    "slug": "godrej-green-cove-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-green-cove"
+  },
+  {
+    "name": "Godrej Woodland, Bengaluru",
+    "slug": "godrej-woodland-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-woodland"
+  },
+  {
+    "name": "Godrej Greens, Pune",
+    "slug": "godrej-greens-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-greens"
+  },
+  {
+    "name": "Godrej Hill Retreat, Pune",
+    "slug": "godrej-hill-retreat-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-hill-retreat"
+  },
+  {
+    "name": "Retreat at Godrej Prakriti, Kolkata",
+    "slug": "retreat-at-godrej-prakriti-kolkata",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/kolkata/residential/retreat-at-godrej-prakriti"
+  },
+  {
+    "name": "Godrej Hillside, Pune",
+    "slug": "godrej-hillside-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-hillside"
+  },
+  {
+    "name": "Orchard at Godrej Se7en, Kolkata",
+    "slug": "orchard-at-godrej-se7en-kolkata",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/kolkata/residential/orchard-at-godrej-seven"
+  },
+  {
+    "name": "Godrej Meadows, Pune",
+    "slug": "godrej-meadows-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-meadows"
+  },
+  {
+    "name": "Godrej Meadows 2, Pune",
+    "slug": "godrej-meadows-2-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-meadows-2"
+  },
+  {
+    "name": "Godrej Woodsville, Pune",
+    "slug": "godrej-woodsville-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-woodsville"
+  },
+  {
+    "name": "Godrej Nurture, Pune",
+    "slug": "godrej-nurture-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-nurture-pune"
+  },
+  {
+    "name": "Godrej Sky Greens, Pune",
+    "slug": "godrej-sky-greens-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-sky-greens"
+  },
+  {
+    "name": "Godrej Rejuve, Pune",
+    "slug": "godrej-rejuve-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-rejuve"
+  },
+  {
+    "name": "Godrej Park Greens, Pune",
+    "slug": "godrej-park-greens-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-park-greens"
+  },
+  {
+    "name": "Godrej Parkridge, Pune",
+    "slug": "godrej-parkridge-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-parkridge"
+  },
+  {
+    "name": "Godrej Retreat, Faridabad",
+    "slug": "godrej-retreat-faridabad",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/faridabad/residential/godrej-retreat"
+  },
+  {
+    "name": "Godrej Central, Mumbai",
+    "slug": "godrej-central-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-central"
+  },
+  {
+    "name": "Godrej Infinity, Pune",
+    "slug": "godrej-infinity-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-infinity"
+  },
+  {
+    "name": "Godrej Se7en, Kolkata",
+    "slug": "godrej-se7en-kolkata",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/kolkata/residential/godrej-se7en"
+  },
+  {
+    "name": "Godrej Prime, Mumbai",
+    "slug": "godrej-prime-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-prime"
+  },
+  {
+    "name": "Godrej Sky, Mumbai",
+    "slug": "godrej-sky-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-sky"
+  },
+  {
+    "name": "Godrej Avenues, Bengaluru",
+    "slug": "godrej-avenues-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-avenues"
+  },
+  {
+    "name": "Celeste At Godrej Garden City, Ahmedabad",
+    "slug": "celeste-at-godrej-garden-city-ahmedabad",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/ahmedabad/residential/celeste-at-godrej-garden-city"
+  },
+  {
+    "name": "The Rivergreens, Pune",
+    "slug": "the-rivergreens-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/the-rivergreens"
+  },
+  {
+    "name": "The Trees, Mumbai",
+    "slug": "the-trees-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/the-trees"
+  },
+  {
+    "name": "Godrej Platinum, Mumbai",
+    "slug": "godrej-platinum-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-platinum"
+  },
+  {
+    "name": "Godrej Green Estate, Sonipat",
+    "slug": "godrej-green-estate-sonipat",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/sonipat/residential/godrej-green-estate"
+  },
+  {
+    "name": "Godrej Serene, Pune",
+    "slug": "godrej-serene-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-serene"
+  },
+  {
+    "name": "Godrej Country Estate, Mumbai",
+    "slug": "godrej-country-estate-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-country-estate"
+  },
+  {
+    "name": "Godrej Five Gardens, Mumbai",
+    "slug": "godrej-five-gardens-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-five-gardens"
+  },
+  {
+    "name": "Godrej Athena, Bengaluru",
+    "slug": "godrej-athena-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-athena"
+  },
+  {
+    "name": "SkyAvenue Godrej Hill Retreat 2, Pune",
+    "slug": "skyavenue-godrej-hill-retreat-2-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-hill-retreat-2"
+  },
+  {
+    "name": "Godrej Urban Retreat, Pune",
+    "slug": "godrej-urban-retreat-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-urban-retreat"
+  },
+  {
+    "name": "Godrej Avenue Eleven, Mumbai",
+    "slug": "godrej-avenue-eleven-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-avenue-eleven"
+  },
+  {
+    "name": "Godrej Tropical Isle,",
+    "slug": "godrej-tropical-isle",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-tropical-isle"
+  },
+  {
+    "name": "Godrej Parkland Estate, Kurukshetra",
+    "slug": "godrej-parkland-estate-kurukshetra",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/kurukshetra/residential/godrej-kurukshetra"
+  },
+  {
+    "name": "Godrej Golf Links,",
+    "slug": "godrej-golf-links",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-golf-links"
+  },
+  {
+    "name": "Godrej Bliss, Mumbai",
+    "slug": "godrej-bliss-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-bliss"
+  },
+  {
+    "name": "Godrej HillSide 3, Pune",
+    "slug": "godrej-hillside-3-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-hillside-3"
+  },
+  {
+    "name": "Godrej Vihaa, Mumbai",
+    "slug": "godrej-vihaa-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-vihaa"
+  },
+  {
+    "name": "Godrej Sunrise Estate, Chennai",
+    "slug": "godrej-sunrise-estate-chennai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/chennai/residential/godrej-sunrise-estate"
+  },
+  {
+    "name": "Godrej Emerald Waters, Pune",
+    "slug": "godrej-emerald-waters-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-emerald-waters"
+  },
+  {
+    "name": "Godrej River Royale, Pune",
+    "slug": "godrej-river-royale-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-river-royale"
+  },
+  {
+    "name": "Godrej Aristocrat,",
+    "slug": "godrej-aristocrat",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-aristocrat"
+  },
+  {
+    "name": "Godrej Sky Terraces, Mumbai",
+    "slug": "godrej-sky-terraces-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-sky-terraces"
+  },
+  {
+    "name": "Godrej Eden Estate PHASE 1 & 2 , Pune",
+    "slug": "godrej-eden-estate-phase-1-and-2-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-eden-estate-phase-1-2"
+  },
+  {
+    "name": "Godrej Serenity, Mumbai",
+    "slug": "godrej-serenity-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-serenity-1"
+  },
+  {
+    "name": "Godrej Planet, Mumbai",
+    "slug": "godrej-planet-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-planet"
+  },
+  {
+    "name": "Godrej Orchard Estate, Nagpur",
+    "slug": "godrej-orchard-estate-nagpur",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/nagpur/residential/godrej-orchard-estate"
+  },
+  {
+    "name": "Godrej South Estate,",
+    "slug": "godrej-south-estate",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/delhi/residential/godrej-south-estate"
+  },
+  {
+    "name": "Godrej Reserve, Mumbai",
+    "slug": "godrej-reserve-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-reserve"
+  },
+  {
+    "name": "Godrej Golf Side Estate , Mumbai",
+    "slug": "godrej-golf-side-estate-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-golf-side-estate"
+  },
+  {
+    "name": "Godrej Vistas, Mumbai",
+    "slug": "godrej-vistas-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-vistas"
+  },
+  {
+    "name": "The Gale at Godrej Park World, Pune",
+    "slug": "the-gale-at-godrej-park-world-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/the-gale-at-godrej-park-world"
+  },
+  {
+    "name": "Elevate at Godrej Se7en, Kolkata",
+    "slug": "elevate-at-godrej-se7en-kolkata",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/kolkata/residential/elevate-godrej-se7en"
+  },
+  {
+    "name": "Godrej Forest Estate, Nagpur",
+    "slug": "godrej-forest-estate-nagpur",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/nagpur/residential/godrej-forest-estate"
+  },
+  {
+    "name": "Godrej Zenith,",
+    "slug": "godrej-zenith",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-zenith"
+  },
+  {
+    "name": "Godrej Jardinia,",
+    "slug": "godrej-jardinia",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-jardinia"
+  },
+  {
+    "name": "Godrej Hillview Estate, Mumbai",
+    "slug": "godrej-hillview-estate-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-hillview-estate"
+  },
+  {
+    "name": "Godrej Woodscapes, Bengaluru",
+    "slug": "godrej-woodscapes-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-woodscapes"
+  },
+  {
+    "name": "Godrej Vrikshya​,",
+    "slug": "godrej-vrikshya",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-vrikshya"
+  },
+  {
+    "name": "Godrej Nurture, Mumbai",
+    "slug": "godrej-nurture-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-nurture"
+  },
+  {
+    "name": "Godrej River Crest, Pune",
+    "slug": "godrej-river-crest-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-river-crest"
+  },
+  {
+    "name": "Godrej Woodside Estate, Mumbai",
+    "slug": "godrej-woodside-estate-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-woodside-estate"
+  },
+  {
+    "name": "Godrej Skyline, Pune",
+    "slug": "godrej-skyline-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-skyline"
+  },
+  {
+    "name": "Godrej Lakeside Orchard, Bengaluru",
+    "slug": "godrej-lakeside-orchard-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-lakeside-orchard"
+  },
+  {
+    "name": "Godrej Miraya,",
+    "slug": "godrej-miraya",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-miraya"
+  },
+  {
+    "name": "Godrej Park Springs, Pune",
+    "slug": "godrej-park-springs-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-park-springs"
+  },
+  {
+    "name": "Godrej Blue, Kolkata",
+    "slug": "godrej-blue-kolkata",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/kolkata/residential/godrej-blue"
+  },
+  {
+    "name": "Godrej Evergreen Square, Pune",
+    "slug": "godrej-evergreen-square-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-evergreen-square"
+  },
+  {
+    "name": "Godrej Riverine,",
+    "slug": "godrej-riverine",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-riverine"
+  },
+  {
+    "name": "Godrej Wood Park, Pune",
+    "slug": "godrej-wood-park-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-wood-park"
+  },
+  {
+    "name": "Godrej Madison Avenue, Hyderabad",
+    "slug": "godrej-madison-avenue-hyderabad",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/hyderabad/residential/godrej-madison-avenue"
+  },
+  {
+    "name": "Godrej Astra,",
+    "slug": "godrej-astra",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-astra"
+  },
+  {
+    "name": "The Greenfront at Godrej Park World, Pune",
+    "slug": "the-greenfront-at-godrej-park-world-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/the-greenfront-at-godrej-park-world"
+  },
+  {
+    "name": "Barca at Godrej MSR City, Bengaluru",
+    "slug": "barca-at-godrej-msr-city-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/barca-at-godrej-msr-city"
+  },
+  {
+    "name": "Godrej Majesty,",
+    "slug": "godrej-majesty",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-majesty"
+  },
+  {
+    "name": "The Aqua Retreat At Godrej Park World, Pune",
+    "slug": "the-aqua-retreat-at-godrej-park-world-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/the-aqua-retreat-at-godrej-park-world"
+  },
+  {
+    "name": "Godrej Tiara, Bengaluru",
+    "slug": "godrej-tiara-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-tiara"
+  },
+  {
+    "name": "Godrej Alira,",
+    "slug": "godrej-alira",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-alira"
+  },
+  {
+    "name": "Godrej Zen Estate, Kolkata",
+    "slug": "godrej-zen-estate-kolkata",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/kolkata/residential/godrej-zen-estate"
+  },
+  {
+    "name": "Godrej Greenview Estate, Indore",
+    "slug": "godrej-greenview-estate-indore",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/indore/residential/godrej-greenview-estate"
+  },
+  {
+    "name": "Godrej Skyshore, Mumbai",
+    "slug": "godrej-skyshore-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-skyshore"
+  },
+  {
+    "name": "Godrej Aqua Vista, Pune",
+    "slug": "godrej-aqua-vista-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-aqua-vista"
+  },
+  {
+    "name": "Godrej Eden Estate Phase 3, Pune",
+    "slug": "godrej-eden-estate-phase-3-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-eden-estate-phase-3"
+  },
+  {
+    "name": "Godrej Regal Pavilion, Hyderabad",
+    "slug": "godrej-regal-pavilion-hyderabad",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/hyderabad/residential/godrej-regal-pavilion"
+  },
+  {
+    "name": "Godrej Eternal Palms, Mumbai",
+    "slug": "godrej-eternal-palms-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-eternal-palms"
+  },
+  {
+    "name": "Godrej Sora,",
+    "slug": "godrej-sora",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-sora"
+  },
+  {
+    "name": "Verdania Estate, Indore",
+    "slug": "verdania-estate-indore",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/indore/residential/verdania-estate"
+  },
+  {
+    "name": "Godrej Heritage Estate, vadodara",
+    "slug": "godrej-heritage-estate-vadodara",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/vadodara/residential/godrej-heritage-estate"
+  },
+  {
+    "name": "Godrej Trilogy, Mumbai",
+    "slug": "godrej-trilogy-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-trilogy"
+  },
+  {
+    "name": "Godrej Elaris, Pune",
+    "slug": "godrej-elaris-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-elaris"
+  },
+  {
+    "name": "Godrej Woods, Bengaluru",
+    "slug": "godrej-woods-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-woods-bengaluru"
+  },
+  {
+    "name": "Godrej Azure, Chennai",
+    "slug": "godrej-azure-chennai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/chennai/residential/godrej-azure"
+  },
+  {
+    "name": "Godrej Arden,",
+    "slug": "godrej-arden",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-arden"
+  },
+  {
+    "name": "Evora Estate, Panipat",
+    "slug": "evora-estate-panipat",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/panipat/residential/godrej-evora-estate"
+  },
+  {
+    "name": "Aravya Estate, Bengaluru",
+    "slug": "aravya-estate-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/aravya-estate"
+  },
+  {
+    "name": "Godrej Varanya, Mumbai",
+    "slug": "godrej-varanya-mumbai",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/mumbai/residential/godrej-varanya"
+  },
+  {
+    "name": "Godrej Parkshire, Bengaluru",
+    "slug": "godrej-parkshire-bengaluru",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/bengaluru/residential/godrej-parkshire"
+  },
+  {
+    "name": "Godrej Ivara, Pune",
+    "slug": "godrej-ivara-pune",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/pune/residential/godrej-ivara"
   },
   {
     "name": "Smartworld Residences by ELIE SAAB",
