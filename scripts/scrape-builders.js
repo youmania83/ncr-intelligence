@@ -41,53 +41,84 @@ async function scrapeBuilder(builder) {
 
   for (const link of links) {
 
-    if (!link.url) continue
+   if (!link.url) continue
+ 
+   const url = link.url.toLowerCase()
+ 
+   // Allow only real project paths
+   if (
+     !url.includes("/residential/") &&
+     !url.includes("/homes/") &&
+     !url.includes("/projects/")
+   ) continue
+ 
+   // Reject obvious non-project pages
+   if (
+     url.includes("/about") ||
+     url.includes("/investor") ||
+     url.includes("/media") ||
+     url.includes("/foundation") ||
+     url.includes("/contact") ||
+     url.includes("/support") ||
+     url.includes("/career") ||
+     url.includes("/privacy") ||
+     url.includes("/disclaimer") ||
+     url.includes("/sitemap")
+   ) continue
+ 
+   let name = cleanName(link.name || "")
 
-    if (
-      !link.url.includes("/residential/") &&
-      !link.url.includes("/homes/") &&
-      !link.url.includes("/projects/")
-    ) continue
-
-    const name = cleanName(link.name || "")
-
-    if (!name) continue
-    if (name.length < 3) continue
-    if (name.toLowerCase().includes("know")) continue
-    if (name.toLowerCase().includes("more")) continue
-    if (name.toLowerCase().includes("read")) continue
-    if (name.toLowerCase().includes("click")) continue
-
-    const slug = slugify(name, { lower: true, strict: true })
-
-    projects.push({
-      name,
-      slug,
-      builder: builder.name,
-      location: builder.location,
-      officialWebsite: link.url
-    })
-  }
+// If the button text is generic, extract name from URL
+if (
+  !name ||
+  name.toLowerCase().includes("know") ||
+  name.toLowerCase().includes("more")
+) {
+  const parts = link.url.split("/")
+  name = parts[parts.length - 1] || parts[parts.length - 2]
+  name = name.replace(/-/g, " ")
+}
+ 
+   if (!name || name.length < 3) continue
+ 
+   const slug = slugify(name, { lower: true, strict: true })
+ 
+   projects.push({
+     name,
+     slug,
+     builder: builder.name,
+     location: builder.location,
+     officialWebsite: link.url
+   })
+ }
 
   await browser.close()
 }
 
 async function run() {
 
-  for (const builder of builders) {
-    await scrapeBuilder(builder)
-  }
-
-  const uniqueProjects = Array.from(
-    new Map(projects.map(p => [p.slug, p])).values()
-  )
-
-  fs.writeFileSync(
-    "./data/projects.json",
-    JSON.stringify(uniqueProjects, null, 2)
-  )
-
-  console.log("Projects saved:", uniqueProjects.length)
-}
+   for (const builder of builders) {
+ 
+     try {
+       await scrapeBuilder(builder)
+     } catch (error) {
+       console.log("Skipping builder:", builder.name)
+       console.log(error.message)
+       continue
+     }
+ 
+   }
+ 
+   const uniqueProjects = Array.from(
+     new Map(projects.map(p => [p.officialWebsite, p])).values()
+   )
+ 
+   fs.writeFileSync(
+     "./data/projects.json",
+     JSON.stringify(uniqueProjects, null, 2)
+   )
+ 
+   console.log("Projects saved:", uniqueProjects.length)
+ }
 
 run()
