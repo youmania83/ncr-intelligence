@@ -24,17 +24,28 @@ async function downloadImages() {
 
    const imageUrl = await page.evaluate(() => {
 
-    const imgs = Array.from(document.querySelectorAll("img"))
-   
-    const largeImage = imgs.find(img =>
-     img.src &&
-     img.naturalWidth > 800 &&
-     img.naturalHeight > 500
-    )
-   
-    return largeImage ? largeImage.src : null
-   
-   })
+    const heroSelectors = [
+      ".hero img",
+      ".banner img",
+      ".project-banner img",
+      ".main-banner img",
+      ".slider img"
+    ]
+  
+    for (const selector of heroSelectors) {
+      const img = document.querySelector(selector)
+      if (img && img.src) {
+        return img.src
+      }
+    }
+  
+    return null
+  })
+
+  if (imageUrl && imageUrl.includes("maps")) {
+    console.log("Skipping map image")
+    continue
+  }
 
    if (!imageUrl) {
     console.log("No image found")
