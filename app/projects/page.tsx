@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { getProjects } from "@/lib/projects"
 
 export default function ProjectsPage() {
@@ -6,46 +7,50 @@ export default function ProjectsPage() {
  const projects = getProjects()
 
  return (
-
   <main className="bg-[#0b0f14] text-white min-h-screen px-10 py-20">
 
-   <div className="max-w-6xl mx-auto">
+   <h1 className="text-4xl mb-12">Delhi NCR Projects</h1>
 
-    <h1 className="text-4xl font-semibold mb-12">
-     Delhi NCR Projects
-    </h1>
+   <div className="grid md:grid-cols-3 gap-8">
 
-    <div className="grid md:grid-cols-3 gap-8">
+    {projects.map((project:any) => (
 
-     {projects.map((project: any) => (
+     <Link key={project.slug} href={`/projects/${project.slug}`}>
 
-      <Link
-       key={project.slug}
-       href={`/projects/${project.slug}`}
-       className="border border-gray-800 rounded-xl p-6 hover:border-gray-600 transition"
-      >
+      <div className="border border-gray-800 rounded-xl overflow-hidden hover:border-gray-600 transition">
 
-       <h2 className="text-xl font-semibold mb-2">
-        {project.name}
-       </h2>
+       <Image
+        src={`/projects/${project.slug}.jpg`}
+        alt={project.name}
+        width={600}
+        height={400}
+        className="w-full h-56 object-cover"
+       />
 
-       <p className="text-gray-400 text-sm">
-        {project.builder}
-       </p>
+       <div className="p-6">
 
-       <p className="text-gray-500 text-sm">
-        {project.location}
-       </p>
+        <h2 className="text-xl font-semibold mb-2">
+         {project.name}
+        </h2>
 
-      </Link>
+        <p className="text-gray-400">
+         {project.builder}
+        </p>
 
-     ))}
+        <p className="text-gray-500 text-sm">
+         {project.location}
+        </p>
 
-    </div>
+       </div>
+
+      </div>
+
+     </Link>
+
+    ))}
 
    </div>
 
   </main>
-
  )
 }
