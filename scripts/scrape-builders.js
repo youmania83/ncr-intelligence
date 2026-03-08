@@ -5,7 +5,7 @@ import slugify from "slugify"
 const builders = JSON.parse(
   fs.readFileSync("./data/builders.json")
 )
-
+console.log(builders)
 const projects = []
 
 const NCR_LOCATIONS = [

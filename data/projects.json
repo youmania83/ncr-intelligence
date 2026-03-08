@@ -1,1 +1,303 @@
-[]
+[
+  {
+    "name": "#about",
+    "slug": "about",
+    "builder": "DLF",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.dlf.in/homes/#about"
+  },
+  {
+    "name": "VIEW ALL Projects",
+    "slug": "view-all-projects",
+    "builder": "DLF",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.dlf.in/homes/listing.php"
+  },
+  {
+    "name": "onemidtown",
+    "slug": "onemidtown",
+    "builder": "DLF",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.dlf.in/homes/luxury/onemidtown/"
+  },
+  {
+    "name": "Godrej Meridien,",
+    "slug": "godrej-meridien",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-meridien"
+  },
+  {
+    "name": "Godrej Woods,",
+    "slug": "godrej-woods",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-woods"
+  },
+  {
+    "name": "Godrej Nurture,",
+    "slug": "godrej-nurture",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-nurture-noida"
+  },
+  {
+    "name": "Godrej Palm Retreat,",
+    "slug": "godrej-palm-retreat",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-palm-retreat"
+  },
+  {
+    "name": "Godrej Air,",
+    "slug": "godrej-air",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-air"
+  },
+  {
+    "name": "Godrej 101,",
+    "slug": "godrej-101",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-101"
+  },
+  {
+    "name": "Godrej Aria,",
+    "slug": "godrej-aria",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-aria"
+  },
+  {
+    "name": "Godrej Connaught One,",
+    "slug": "godrej-connaught-one",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/delhi/residential/godrej-connaught-one"
+  },
+  {
+    "name": "Godrej Habitat,",
+    "slug": "godrej-habitat",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-habitat"
+  },
+  {
+    "name": "Godrej Nature Plus,",
+    "slug": "godrej-nature-plus",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-nature-plus"
+  },
+  {
+    "name": "Godrej Icon,",
+    "slug": "godrej-icon",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-icon"
+  },
+  {
+    "name": "Godrej Nest,",
+    "slug": "godrej-nest",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-nest-noida"
+  },
+  {
+    "name": "Godrej Oasis,",
+    "slug": "godrej-oasis",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-oasis"
+  },
+  {
+    "name": "Godrej Prima,",
+    "slug": "godrej-prima",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/delhi/residential/godrej-prima"
+  },
+  {
+    "name": "Godrej Summit,",
+    "slug": "godrej-summit",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-summit"
+  },
+  {
+    "name": "Godrej Retreat, Faridabad",
+    "slug": "godrej-retreat-faridabad",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/faridabad/residential/godrej-retreat"
+  },
+  {
+    "name": "Godrej Tropical Isle,",
+    "slug": "godrej-tropical-isle",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-tropical-isle"
+  },
+  {
+    "name": "Godrej Golf Links,",
+    "slug": "godrej-golf-links",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-golf-links"
+  },
+  {
+    "name": "Godrej Aristocrat,",
+    "slug": "godrej-aristocrat",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-aristocrat"
+  },
+  {
+    "name": "Godrej South Estate,",
+    "slug": "godrej-south-estate",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/delhi/residential/godrej-south-estate"
+  },
+  {
+    "name": "Godrej Zenith,",
+    "slug": "godrej-zenith",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-zenith"
+  },
+  {
+    "name": "Godrej Jardinia,",
+    "slug": "godrej-jardinia",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-jardinia"
+  },
+  {
+    "name": "Godrej Vrikshya​,",
+    "slug": "godrej-vrikshya",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-vrikshya"
+  },
+  {
+    "name": "Godrej Miraya,",
+    "slug": "godrej-miraya",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-miraya"
+  },
+  {
+    "name": "Godrej Riverine,",
+    "slug": "godrej-riverine",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-riverine"
+  },
+  {
+    "name": "Godrej Astra,",
+    "slug": "godrej-astra",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-astra"
+  },
+  {
+    "name": "Godrej Majesty,",
+    "slug": "godrej-majesty",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-majesty"
+  },
+  {
+    "name": "Godrej Alira,",
+    "slug": "godrej-alira",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-alira"
+  },
+  {
+    "name": "Godrej Sora,",
+    "slug": "godrej-sora",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/gurugram/residential/godrej-sora"
+  },
+  {
+    "name": "Godrej Arden,",
+    "slug": "godrej-arden",
+    "builder": "Godrej",
+    "location": "Gurgaon",
+    "officialWebsite": "https://www.godrejproperties.com/noida/residential/godrej-arden"
+  },
+  {
+    "name": "Smartworld Residences by ELIE SAAB",
+    "slug": "smartworld-residences-by-elie-saab",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/eliesaabresidences"
+  },
+  {
+    "name": "Smartworld Le Courtyard",
+    "slug": "smartworld-le-courtyard",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/lecourtyard/"
+  },
+  {
+    "name": "Smartworld Nature's Court",
+    "slug": "smartworld-natures-court",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/natures-court/"
+  },
+  {
+    "name": "Smartworld Sky Arc",
+    "slug": "smartworld-sky-arc",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/skyarc"
+  },
+  {
+    "name": "Smartworld The Edition",
+    "slug": "smartworld-the-edition",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/theedition"
+  },
+  {
+    "name": "Smartworld One DXP",
+    "slug": "smartworld-one-dxp",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/onedxp"
+  },
+  {
+    "name": "Smartworld One DXP Street",
+    "slug": "smartworld-one-dxp-street",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/onedxpstreet"
+  },
+  {
+    "name": "Smartworld Orchard Street",
+    "slug": "smartworld-orchard-street",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/orchardstreet"
+  },
+  {
+    "name": "Smartworld Orchard",
+    "slug": "smartworld-orchard",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/orchard"
+  },
+  {
+    "name": "Smartworld Gems",
+    "slug": "smartworld-gems",
+    "builder": "Smartworld",
+    "location": "Gurgaon",
+    "officialWebsite": "https://smartworlddevelopers.com/projects/gems"
+  }
+]

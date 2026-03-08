@@ -1,29 +1,27 @@
 [
-    [
-        {
-          "name": "DLF",
-          "location": "Gurgaon",
-          "projectsPage": "https://www.dlf.in/homes/"
-        },
-        {
-          "name": "M3M",
-          "location": "Gurgaon",
-          "projectsPage": "https://m3mindia.com/residential"
-        },
-        {
-          "name": "Godrej",
-          "location": "Gurgaon",
-          "projectsPage": "https://www.godrejproperties.com/gurgaon"
-        },
-        {
-          "name": "Smartworld",
-          "location": "Gurgaon",
-          "projectsPage": "https://smartworlddevelopers.com/projects"
-        },
-        {
-          "name": "Adani Realty",
-          "location": "Gurgaon",
-          "projectsPage": "https://www.adanirealty.com/residential"
-        }
-      ]
-  ]
+  {
+    "name": "DLF",
+    "location": "Gurgaon",
+    "projectsPage": "https://www.dlf.in/homes/"
+  },
+  {
+    "name": "M3M",
+    "location": "Gurgaon",
+    "projectsPage": "https://m3mindia.com/residential"
+  },
+  {
+    "name": "Godrej",
+    "location": "Gurgaon",
+    "projectsPage": "https://www.godrejproperties.com/gurgaon"
+  },
+  {
+    "name": "Smartworld",
+    "location": "Gurgaon",
+    "projectsPage": "https://smartworlddevelopers.com/projects"
+  },
+  {
+    "name": "Adani Realty",
+    "location": "Gurgaon",
+    "projectsPage": "https://www.adanirealty.com/residential"
+  }
+]
