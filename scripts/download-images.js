@@ -24,10 +24,16 @@ async function downloadImages() {
 
    const imageUrl = await page.evaluate(() => {
 
-    const img = document.querySelector("img")
-
-    return img ? img.src : null
-
+    const imgs = Array.from(document.querySelectorAll("img"))
+   
+    const largeImage = imgs.find(img =>
+     img.src &&
+     img.naturalWidth > 800 &&
+     img.naturalHeight > 500
+    )
+   
+    return largeImage ? largeImage.src : null
+   
    })
 
    if (!imageUrl) {
